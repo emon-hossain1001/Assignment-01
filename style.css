@@ -231,3 +231,58 @@ span {
     margin-bottom: 43px;
 }
 
+/* Discount Section */
+.sales {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.sales-title {
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.sales-discount {
+    color: #F00;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.sales50 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sales-info {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+/* Discount-2 */
+.dis-pic-1 {
+    border-radius: 16px 16px 0px 0px;
+    background: url('resources/Rectangle\ 1.png') no-repeat;
+    float: right;
+    padding-right: 50px;
+    margin-right: 140px;
+}
+.rectangle{
+    float: right;
+    margin-right: 140px;
+    margin-bottom: 120px;
+    
+}
+.img-rec {
+    padding-right: 144px;
+}
