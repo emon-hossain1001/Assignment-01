@@ -13,6 +13,7 @@ header {
     margin-left: 140px;
     margin-right: 140px;
 }
+
 .banner-1 {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
@@ -21,6 +22,7 @@ header {
     color: #070211, #07021100;
     justify-content: center;
 }
+
 .banner-heading {
     color: #FFF;
     text-align: center;
@@ -28,10 +30,88 @@ header {
     font-weight: 400;
     padding-top: 180px;
 }
+
 .banner-title {
     text-align: center;
     color: #FFF;
     font-size: 72px;
     font-weight: 900;
-    padding-bottom: 180px; 
+    padding-bottom: 180px;
+}
+
+/* Discount Section */
+.discount-heading {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.discount-info {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.discount-categories {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.new-year-img {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 120px;
+}
+
+/* banner-2 styles */
+.banner-2 {
+    width: 1320px;
+    height: 600px;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    display: flex;
+    background-image: url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-left: 140px;
+    margin-bottom: 120px;
+}
+
+.banner-2-heading {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    padding-left: 126px;
+}
+
+.banner-2-info {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 126px;
+    padding-right: 39px;
+    padding-top: 24px;
+}
+
+.banner-2-join {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 158px;
+    padding-top: 48px;
+}
+.banner-2-img{
+    padding-right: 138px;
 }
