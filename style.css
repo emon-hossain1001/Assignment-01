@@ -270,19 +270,158 @@ span {
 }
 
 /* Discount-2 */
-.dis-pic-1 {
-    border-radius: 16px 16px 0px 0px;
-    background: url('resources/Rectangle\ 1.png') no-repeat;
-    float: right;
-    padding-right: 50px;
+.dis-pic {
+    display: inline-flex;
+    align-items: baseline;
+    background-image: url('resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+/* Portfolio part */
+.portfolio {
+    margin-top: 120px;
+    margin-left: 140px;
     margin-right: 140px;
 }
-.rectangle{
-    float: right;
-    margin-right: 140px;
+
+.portfolio-title {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio-heading {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.portfolio-info {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.portfolio-pic-1 {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.portfolio-pic-2 {
+    display: flex;
+    gap: 16px;
     margin-bottom: 120px;
-    
 }
-.img-rec {
-    padding-right: 144px;
+
+/* Newsletter styles */
+.newsletter {
+    text-align: center;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-left: 140px;
+    margin-bottom: 120px;
+}
+
+.newsletter-pic {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.newsletter-title {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.newsletter-info {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 212px;
+    margin-bottom: 48px;
+}
+
+.Subscribe-form {
+    border-radius: 50px;
+    background: #FFF;
+    border: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 477px;
+}
+
+.sub-btn {
+    border-radius: 50px;
+    background: #F00;
+    padding: 24px 56px;
+    border: 0;
+}
+
+span {
+    color: #FFF;
+}
+
+/* Footer section */
+footer {
+    width: 100%;
+    background: #070211;
+}
+
+.address {
+    display: flex;
+}
+
+.main-address {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+.place {
+    padding: 120px 0px 50px 140px;
+}
+.contact {
+    padding: 120px 0px 50px 599px;
+}
+.horizontal-1 {
+    height: 0.5px;
+    background: rgba(255, 255, 255, 0.15);
+    width: 1320px;
+    margin-left: 100px;
+}
+.social-media {
+    padding: 120px 0px 100px 640px;
+}
+.social-img {
+    margin-right: 24px;
+}
+.last-part {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+}
+.last-info{
+    padding: 50px 0px 120px 140px;
+}
+.Unsubscribe {
+    padding: 50px 0px 120px 800px;
 }
